@@ -5,6 +5,8 @@ import org.apache.spark.sql.{DataFrame, SparkSession, functions}
 import org.apache.spark.sql.functions._
 
 object functions {
+  
+  
   /*******************************************************************************************************************
    Creates a DataFrame from a sequence of tuples containing information about students (name, age, grade). Displays the
    schema of the DataFrame, filters students with a grade higher than 8, selects their names, and sorts them in
